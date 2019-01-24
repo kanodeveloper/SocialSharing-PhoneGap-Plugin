@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-social-sharing-ka"
-        version="1.0.3">
+        version="1.0.4">
 
   <name>SocialSharing</name>
 
@@ -61,10 +61,6 @@
       <feature name="SocialSharing">
         <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
       </feature>
-    </config-file>
-
-    <config-file target="AndroidManifest.xml" parent="/*">
-      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
